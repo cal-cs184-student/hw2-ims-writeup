@@ -1,116 +1,181 @@
-<html>
-	<head>
-		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-		<style>
-			h1 {
-				text-align: center;
-			}
-
-			.container {
-				margin: 0 auto;
-				padding: 60px 20%;
-			}
-
-			figure {
-				text-align: center;
-			}
-
-			img {
-				display: inline-block;
-			}
-
-			body {
-				font-family: 'Inter', sans-serif;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="container">
-		<h1>CS184/284A Fall 2026 Homework 2 Write-Up</h1>
-		<div style="text-align: center;">Names: </div>
-
-		<br>
-
-		Link to webpage: (TODO) <a href="https://cs184.eecs.berkeley.edu/fa26">cs184.eecs.berkeley.edu/fa26</a>
-
-		<br>
-		
-		Link to GitHub repository: (TODO) <a href="https://cs184.eecs.berkeley.edu/fa26">cs184.eecs.berkeley.edu/fa26</a>
-
-		<figure>
-			<img src="assets/teapot.png" alt="Teapot" style="width:50%"/>
-			<figcaption>You can add images with captions!</figcaption>
-		</figure>
-
-		<!--
-		We've already added one heading per part, to make your write-up as navigable when grading. Please fit your write-up within these sections!
-		-->
-
-		<h2>Overview</h2>
-		Give a high-level overview of what you implemented in this homework. Think about what you've built as a whole. Share your thoughts on what interesting things you've learned from completing the homework.
-
-		<h2>Section I: Bezier Curves and Surfaces</h2>
-
-		<h3>Part 1: Bezier curves with 1D de Casteljau subdivision</h3>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-		<p>Here is an example 2x2 gridlike structure using an HTML table. Each <b>tr</b> is a row and each <b>td</b> is a column in that row. You might find this useful for framing and showing your result images in an organized fashion.</p>
-		<div style="display: flex; flex-direction: column; align-items: center;">
-			<table style="width: 100%; text-align: center; border-collapse: collapse;">
-			  <tr>
-				<td style="text-align: center;">
-				  <img src="assets/teapot.png" width="400px"/>
-				  <figcaption>Caption goes here.</figcaption>
-				</td>
-				<td style="text-align: center;">
-				  <img src="assets/teapot.png" width="400px"/>
-				  <figcaption>Caption goes here.</figcaption>
-				</td>
-			  </tr>
-			  <tr>
-				<td style="text-align: center;">
-				  <img src="assets/teapot.png" width="400px"/>
-				  <figcaption>Caption goes here.</figcaption>
-				</td>
-				<td style="text-align: center;">
-				  <img src="assets/teapot.png" width="400px"/>
-				  <figcaption>Caption goes here.</figcaption>
-				</td>
-			  </tr>
-			</table>
-		</div>
-
-		<h3>Part 2: Bezier surfaces with separable 1D de Casteljau</h3>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-		<h2>Section II: Triangle Meshes and Half-Edge Data Structure</h2>
-
-		<h3>Part 3: Area-weighted vertex normals</h3>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-		<h3>Part 4: Edge flip</h3>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-		<h3>Part 5: Edge split</h3>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-		<h3>Part 6: Loop subdivision for mesh upsampling</h3>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-		<h2>(Optional) Section III: Potential Extra Credit - Art Competition: Model something Creative</h2>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-		<h2>Additional Notes (please remove)</h2>
-		<ul>
-			<li>You can also add code if you'd like as so: <code>code code code</code></li>
-			<li>If you'd like to add math equations, 
-				<ul>
-					<li>You can write inline equations like so: \( a^2 + b^2 = c^2 \)</li>
-					<li>You can write display equations like so: \[ a^2 + b^2 = c^2 \]</li>
-				</ul>
-			</li>
-		</ul>
-		</div>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS184/284A Fall 2026 Homework 2 Write-Up</title>
+  <style>
+:root {
+  --text: #202936;
+  --muted: #59677c;
+  --line: #d9e1ea;
+  --soft: #f6f8fb;
+  --accent: #244c86;
+  --extra-bg: #fbf7ed;
+  --extra-border: #ddca9e;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #fff; color: var(--text); font: 15.5px/1.58 -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif; }
+main { width: min(1050px, calc(100% - 48px)); margin: 0 auto; padding: 32px 0 66px; }
+h1 { font-size: 2rem; text-align: center; line-height: 1.25; margin: 4px 0 9px; color: #1b2c45; }
+.byline { text-align: center; margin: 0 0 22px; color: var(--muted); font-size: 1.04rem; }
+.meta { display: grid; gap: 5px; background: var(--soft); border: 1px solid var(--line); padding: 13px 17px; border-radius: 8px; margin-bottom: 26px; font-size: 0.94rem; overflow-wrap: anywhere; }
+a { color: #175ca6; }
+h2 { margin: 36px 0 13px; padding-bottom: 7px; border-bottom: 2px solid var(--line); font-size: 1.5rem; color: #1e3556; }
+h3 { margin: 29px 0 11px; font-size: 1.18rem; color: #203b60; }
+p { margin: 10px 0 15px; }
+code { background: #eef2f6; border-radius: 4px; padding: 1px 5px; font: 0.94em Consolas,'SFMono-Regular',monospace; }
+.figure-grid { display: grid; gap: 12px; margin: 16px 0 18px; align-items: start; }
+.figure-grid.cols-2 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+.figure-grid.cols-3 { grid-template-columns: repeat(3, minmax(0,1fr)); }
+figure { margin: 0; padding: 9px; background: #fff; border: 1px solid var(--line); border-radius: 7px; break-inside: avoid; min-width: 0; }
+figure img { width: 100%; display: block; height: auto; border-radius: 3px; }
+figcaption { font-size: 0.87rem; text-align: center; color: var(--muted); margin-top: 7px; line-height: 1.4; }
+.figure-grid.tight figure { padding: 6px; }
+.figure-grid.tight figcaption { font-size: 0.83rem; }
+.one-figure { width: min(710px,100%); margin: 15px auto 23px; }
+.ec { border: 1px solid var(--extra-border); background: var(--extra-bg); border-radius: 8px; padding: 14px 16px 10px; margin: 18px 0 24px; break-inside: auto; }
+.ec h3 { margin: 0 0 9px; color: #805a13; }
+.ec figure { border-color: #e3d9c0; }
+.compare-label { margin: 18px 0 8px; font-weight: 600; color: #304765; }
+.formula { padding: 7px 12px; background: var(--soft); border-left: 3px solid var(--line); font-family: Consolas,'SFMono-Regular',monospace; overflow-x: auto; font-size: 0.9rem; }
+.caption-note { font-size: 0.9rem; color: var(--muted); }
+.footer { font-size: 0.89rem; border-top: 1px solid var(--line); color: var(--muted); padding-top: 18px; margin-top: 40px; }
+@media screen and (max-width: 760px) {
+  main { width: calc(100% - 28px); padding-top: 22px; }
+  .figure-grid.cols-2, .figure-grid.cols-3 { grid-template-columns: 1fr; }
+}
+@media print {
+  @page { size: letter; margin: 0.42in 0.48in; }
+  body { font-size: 11.5px; line-height: 1.42; }
+  main { width: 100%; padding: 0; margin: 0; }
+  h1 { font-size: 20px; }
+  h2 { font-size: 16px; margin-top: 20px; }
+  h3 { font-size: 13px; margin-top: 15px; }
+  .byline { margin-bottom: 11px; }
+  .meta { margin-bottom: 15px; padding: 8px 12px; }
+  p { margin: 7px 0 9px; }
+  .figure-grid { gap: 8px; margin: 9px 0 12px; }
+  figure { padding: 5px; }
+  figcaption { margin-top: 4px; font-size: 10px; }
+  .figure-grid.tight figcaption { font-size: 9px; }
+  .ec { padding: 9px 11px 4px; margin: 12px 0; }
+  .one-figure { width: min(570px,100%); }
+  h2,h3 { break-after: avoid; }
+  figure { break-inside: avoid; }
+  a { color: inherit; text-decoration: none; }
+}
+</style>
+</head>
+<body>
+<main>
+  <h1>CS184/284A Fall 2026 Homework 2 Write-Up</h1>
+  <p class="byline">Name: Ian Meng Si &nbsp; · &nbsp; Team: ims</p>
+  <div class="meta">
+    <div><strong>Webpage:</strong> <a href="https://cal-cs184-student.github.io/hw2-ims-writeup/">https://cal-cs184-student.github.io/hw2-ims-writeup/</a></div>
+    <div><strong>Public write-up repository:</strong> <a href="https://github.com/cal-cs184-student/hw2-ims-writeup">https://github.com/cal-cs184-student/hw2-ims-writeup</a></div>
+  </div>
+  <h2 id="overview">Overview</h2>
+<p>This assignment combines parametric modeling and triangle-mesh processing. I implemented de Casteljau evaluation for Bézier curves and tensor-product Bézier surfaces, area-weighted vertex normals, half-edge edge flips and splits, and Loop subdivision. I also extended edge splitting and Loop subdivision to meshes with open boundaries, and implemented an additional √3 subdivision scheme for closed triangle meshes.</p>
+<p>The main conceptual connection is that smooth geometric models can be described either by control points or by a polygon mesh that is gradually refined. Bézier evaluation uses repeated interpolation; mesh processing instead relies on local connectivity and weighted averages. Testing the teapot, cube, and open two-triangle mesh showed how correct half-edge relationships are essential to changing topology without creating holes.</p><h2 id="section1">Section I: Bézier Curves and Surfaces</h2>
+<h3 id="part1">Part 1: Bézier Curves with 1D de Casteljau Subdivision</h3>
+<p>De Casteljau's algorithm evaluates a Bézier curve by recursively interpolating neighboring control points at a parameter <em>t</em> between 0 and 1. Each new level has one fewer point, with the recurrence:</p>
+<p class="formula">P<sub>i</sub><sup>(k+1)</sup> = (1 − t) P<sub>i</sub><sup>(k)</sup> + t P<sub>i+1</sub><sup>(k)</sup>.</p>
+<p>In <code>BezierCurve::evaluateStep</code>, I loop over consecutive pairs of points, compute their linear interpolations, and return the resulting vector. The GUI calls this function repeatedly. For my six-point degree-five curve, the levels contain 6, 5, 4, 3, 2, and finally 1 point: the final red point lies on the curve. The green curve shows the full evaluation across many values of <em>t</em>.</p>
+<p>These images use a custom six-control-point shape and document the full de Casteljau construction:</p><div class="figure-grid cols-3 tight">
+<figure class=""><img src="assets/part1-original-curve.png" alt="Original six control points and completed Bézier curve."><figcaption>Original six control points and completed Bézier curve.</figcaption></figure>
+<figure class=""><img src="assets/part1-level1.png" alt="Level 1 — five interpolated points."><figcaption>Level 1 — five interpolated points.</figcaption></figure>
+<figure class=""><img src="assets/part1-level2.png" alt="Level 2 — four new points."><figcaption>Level 2 — four new points.</figcaption></figure>
+<figure class=""><img src="assets/part1-level3.png" alt="Level 3 — three new points."><figcaption>Level 3 — three new points.</figcaption></figure>
+<figure class=""><img src="assets/part1-level4.png" alt="Level 4 — two new points."><figcaption>Level 4 — two new points.</figcaption></figure>
+<figure class=""><img src="assets/part1-level5.png" alt="Level 5 — the final point is shown in red."><figcaption>Level 5 — the final point is shown in red.</figcaption></figure>
+</div><p>Changing a control point changes the shape of the Bézier curve while preserving its smooth, continuous interpolation. I moved the third control point downward for the example below. Separately, changing <em>t</em> moves the evaluated point along the fixed curve; <em>t</em> affects the evaluation position, not the set of control points.</p><div class="figure-grid cols-2 ">
+<figure class=""><img src="assets/part1-original-curve.png" alt="Original curve."><figcaption>Original curve.</figcaption></figure>
+<figure class=""><img src="assets/part1-modified-curve.png" alt="Modified curve after moving a control point downward."><figcaption>Modified curve after moving a control point downward.</figcaption></figure>
+</div>
+<p class="compare-label">Changing the evaluation parameter <em>t</em></p>
+<p>Keeping all six original control points fixed, I scrolled in the Bézier GUI to change <em>t</em>. The red evaluated point moves along the same green curve and the intermediate blue control polygons update, while the curve itself does not change. The first image shows the original evaluated point; the second shows the point at a different parameter value.</p>
+<div class="figure-grid cols-2">
+<figure><img src="assets/part1-level5.png" alt="Original position of the evaluated red Bézier curve point"><figcaption>Original parameter value, red evaluated point.</figcaption></figure>
+<figure><img src="assets/part1-different-t.png" alt="Moved red evaluation point after changing the Bezier parameter t"><figcaption>Different <em>t</em>: red point moves; white control points remain fixed.</figcaption></figure>
+</div><h3 id="part2">Part 2: Bézier Surfaces with Separable 1D de Casteljau</h3>
+<p>A Bézier surface has two parameters, <em>u</em> and <em>v</em>, instead of the single parameter <em>t</em> used by a curve. I implemented the same interpolation step in 3D in <code>BezierPatch::evaluateStep</code>. The helper <code>evaluate1D</code> repeatedly reduces a row of control points to one 3D point. In <code>BezierPatch::evaluate</code>, I first evaluate each row at <em>u</em>, then evaluate the resulting set of row points at <em>v</em>. This separable approach yields one position on the patch.</p>
+<p>The resulting patch positions are sampled and triangulated for display. In the rendered <code>bez/teapot.bez</code>, the body, lid, spout, and handle join to form a smooth model:</p><figure class="one-figure"><img src="assets/part2-bezier-teapot.png" alt="Bézier surface teapot computed from bez/teapot.bez; triangle wireframe shown."><figcaption>Bézier surface teapot computed from bez/teapot.bez; triangle wireframe shown.</figcaption></figure><h2 id="section2">Section II: Triangle Meshes and Half-Edge Data Structure</h2>
+<h3 id="part3">Part 3: Area-Weighted Vertex Normals</h3>
+<p>For each vertex, I traverse its incident faces using the half-edge rotation <code>h = h-&gt;twin()-&gt;next()</code>. For each non-boundary triangle with positions <code>p0, p1, p2</code>, I add <code>cross(p1 − p0, p2 − p0)</code> to the normal accumulator. The cross product points perpendicular to the face and its magnitude is twice the triangle area, so the sum naturally weights larger faces more heavily. I then normalize the accumulated vector.</p>
+<p>On <code>dae/teapot.dae</code>, pressing <code>Q</code> switches from per-face normals to interpolated vertex normals. The geometry and wireframe stay the same, but lighting changes from faceted patches to smooth shading.</p><div class="figure-grid cols-2 ">
+<figure class=""><img src="assets/part3-flat-shading.png" alt="Flat shading — abrupt color boundaries between triangles."><figcaption>Flat shading — abrupt color boundaries between triangles.</figcaption></figure>
+<figure class=""><img src="assets/part3-smooth-shading.png" alt="Phong/smooth shading — gradual lighting across the body."><figcaption>Phong/smooth shading — gradual lighting across the body.</figcaption></figure>
+</div><h3 id="part4">Part 4: Edge Flip</h3>
+<p>Edge flipping changes the diagonal shared by two adjacent triangles. The four surrounding vertices remain in place; the connectivity changes from the original diagonal to the one connecting the two opposite vertices. My <code>HalfedgeMesh::flipEdge</code> handles an interior edge in constant time. It obtains the six local halfedges and two faces, then rewires each halfedge's <code>next</code>, <code>twin</code>, <code>vertex</code>, <code>edge</code>, and <code>face</code> relationships and updates representative halfedge references. No elements are allocated or removed. Boundary edges are rejected.</p>
+<p>Because the operation is topological, the most useful test was to select an interior diagonal, flip it, and compare the neighboring triangles with the camera unchanged. The chosen diagonal visibly switches direction without making a hole in the teapot.</p><div class="figure-grid cols-2 ">
+<figure class=""><img src="assets/part4-edgeflip-before.png" alt="Before — selected interior diagonal highlighted in white."><figcaption>Before — selected interior diagonal highlighted in white.</figcaption></figure>
+<figure class=""><img src="assets/part4-edgeflip-after.png" alt="After — the diagonal connects the opposite pair of vertices."><figcaption>After — the diagonal connects the opposite pair of vertices.</figcaption></figure>
+</div><h3 id="part5">Part 5: Edge Split</h3>
+<p>Splitting an interior edge inserts a vertex at the midpoint of its endpoints. Each of the two adjacent triangles is divided into two, giving four triangles total. My implementation allocates the new vertex and necessary faces, edges, and halfedges, reuses the original elements wherever possible, then assigns the connectivity for the four face cycles and all twin relationships. It also returns the new vertex, as required by the mesh editor. Like edge flipping, a key correctness check is that all incident vertices, edges, and faces have valid representative halfedges after the update.</p>
+<p>The teapot screenshots below isolate one interior split. The single highlighted diagonal becomes two edge segments, and new spokes meet at the inserted vertex.</p><div class="figure-grid cols-2 ">
+<figure class=""><img src="assets/part5-edgesplit-before.png" alt="Before — one selected interior edge."><figcaption>Before — one selected interior edge.</figcaption></figure>
+<figure class=""><img src="assets/part5-edgesplit-after.png" alt="After — midpoint vertex and new triangular connections."><figcaption>After — midpoint vertex and new triangular connections.</figcaption></figure>
+</div><p class="compare-label">Combined edge flip and edge split</p>
+<p>I also performed these operations sequentially on the same teapot session: first flipping one diagonal and then splitting another edge in the nearby region. The pair below shows the mesh before the sequence versus after both edits, demonstrating that the modified topology remains connected.</p><div class="figure-grid cols-2 ">
+<figure class=""><img src="assets/part4-edgeflip-before.png" alt="Before — mesh prior to the flip-and-split sequence."><figcaption>Before — mesh prior to the flip-and-split sequence.</figcaption></figure>
+<figure class=""><img src="assets/part5-edgesplit-after.png" alt="After — mesh following the edge flip and edge split."><figcaption>After — mesh following the edge flip and edge split.</figcaption></figure>
+</div><h3 id="part6">Part 6: Loop Subdivision for Mesh Upsampling</h3>
+<p>Loop subdivision replaces each triangle with four smaller triangles while moving vertices toward a smoother surface. I used the three-stage approach: (1) compute all new positions from the original mesh, (2) split every original edge and flip only the newly added spokes connecting an old vertex to a new one, and (3) apply the precomputed positions. Saving the original edge list and using <code>isNew</code> flags prevents newly added edges from being split again in the same pass.</p>
+<p>For an interior edge with endpoints <em>A</em>, <em>B</em> and opposite vertices <em>C</em>, <em>D</em>, the new edge-point position is <code>3/8(A+B) + 1/8(C+D)</code>. For an original vertex of valence <em>n</em>, the new position is <code>(1 − n·u)P + u·Σ neighbors</code>, where <code>u = 3/16</code> for valence 3 and otherwise <code>u = 3/(8n)</code>. Calculating these values before changing connectivity ensures every weight uses the coarse original neighborhood.</p>
+<p>Repeated subdivision rounds sharp cube corners and smooths sharp edges, but the original face diagonals create uneven vertex valences. As a result, the unmodified cube becomes slightly asymmetric under repeated subdivision:</p>
+<p class="compare-label">Original cube — repeated Loop subdivision</p><div class="figure-grid cols-3 tight">
+<figure class=""><img src="assets/part6-original-cube.png" alt="Original triangulated cube."><figcaption>Original triangulated cube.</figcaption></figure>
+<figure class=""><img src="assets/part6-original-cube-1subdiv.png" alt="After one subdivision."><figcaption>After one subdivision.</figcaption></figure>
+<figure class=""><img src="assets/part6-original-cube-2subdiv.png" alt="After two subdivisions; asymmetry remains."><figcaption>After two subdivisions; asymmetry remains.</figcaption></figure>
+</div><p>To improve the symmetry, I pre-split the diagonal across each of the cube's six square faces. This creates a face-center vertex and four triangles per original square face, giving a more balanced pattern before the same Loop subdivision operation. With more regular connectivity, the refined result is visibly rounder and more symmetric:</p>
+<p class="compare-label">Cube with face-center splits — repeated Loop subdivision</p><div class="figure-grid cols-3 tight">
+<figure class=""><img src="assets/hw2-cube-symmetric-before.png" alt="Preprocessed: each square face split into four triangles."><figcaption>Preprocessed: each square face split into four triangles.</figcaption></figure>
+<figure class=""><img src="assets/hw2-cube-symmetric-1subdiv.png" alt="After one subdivision."><figcaption>After one subdivision.</figcaption></figure>
+<figure class=""><img src="assets/hw2-cube-symmetric-2subdiv.png" alt="After two subdivisions; more even roundness."><figcaption>After two subdivisions; more even roundness.</figcaption></figure>
+</div><p>This experiment illustrates that subdivision smoothness depends not only on the number of triangles, but also on the mesh's connectivity. Pre-splitting redistributes the irregularity of the original cube triangulation; it does not need to change the cube's initial visible silhouette.</p><p class="compare-label">Sharp-feature preservation by pre-splitting</p>
+<p>To study how subdivision affects sharp features, I also used <code>dae/icosahedron/input.dae</code>. Without pre-processing, successive Loop subdivisions round off the pronounced top vertex and make the mesh more sphere-like. I then reloaded the original icosahedron and split each of the five edges incident to the top vertex before subdividing. This places a tighter ring of vertices around the tip. The pre-split version retains a more prominent top feature in the first and second iterations, illustrating how additional local connectivity can limit smoothing of a sharp feature.</p>
+<p class="caption-note">These comparisons are qualitative: the camera view is kept similar, and the important evidence is the relative top profile and the concentration of small triangles near the tip.</p>
+<p class="compare-label">Ordinary Loop subdivision, no pre-splitting</p>
+<div class="figure-grid cols-3 tight">
+<figure><img src="assets/part6-sharp-original.png" alt="Original pointed icosahedron"><figcaption>Original icosahedron, pointed tip.</figcaption></figure>
+<figure><img src="assets/part6-sharp-1subdiv.png" alt="Original icosahedron after one Loop subdivision"><figcaption>One Loop iteration.</figcaption></figure>
+<figure><img src="assets/part6-sharp-2subdiv.png" alt="Original icosahedron after two Loop subdivisions"><figcaption>Two Loop iterations: rounder silhouette.</figcaption></figure>
+</div>
+<p class="compare-label">Loop subdivision after splitting edges at the pointed vertex</p>
+<div class="figure-grid cols-3 tight">
+<figure><img src="assets/part6-sharp-presplit-before.png" alt="Icosahedron with five incident tip edges pre-split"><figcaption>Pre-split five edges around the top vertex.</figcaption></figure>
+<figure><img src="assets/part6-sharp-presplit-1subdiv.png" alt="Pre-split icosahedron after one Loop subdivision"><figcaption>One Loop iteration after pre-splitting.</figcaption></figure>
+<figure><img src="assets/part6-sharp-presplit-2subdiv.png" alt="Pre-split icosahedron after two Loop subdivisions"><figcaption>Two Loop iterations: local top detail remains more pronounced.</figcaption></figure>
+</div>
+<div class="ec" id="boundary-ec">
+<h3>Extra Credit — Boundary-Edge Splits and Boundary Loop Subdivision (Parts 5 and 6)</h3>
+<p>I extended <code>splitEdge</code> to accept an edge on an open mesh. Unlike an interior edge, a boundary edge borders only one real triangle; splitting it therefore adds one face while also updating the halfedges of the virtual boundary loop. The code preserves the boundary cycle and creates a midpoint vertex without closing the surface.</p>
+<p>I also used boundary-specific subdivision weights: a new vertex on a boundary edge starts at the endpoints' midpoint, and an existing boundary vertex with two boundary neighbors moves to <code>3/4·P + 1/8·(P_left + P_right)</code>. Interior vertices retain the ordinary Loop weights. I tested both features on a square made of two triangles, first splitting an exterior edge and then running two successive Loop subdivisions. The mesh stays connected and its open border becomes smoother.</p><div class="figure-grid cols-2 tight">
+<figure class=""><img src="assets/ec-boundary-original.png" alt="Original open two-triangle mesh."><figcaption>Original open two-triangle mesh.</figcaption></figure>
+<figure class=""><img src="assets/ec-boundary-before-split.png" alt="Selected bottom edge is a boundary edge (isBoundary() = 1)."><figcaption>Selected bottom edge is a boundary edge (isBoundary() = 1).</figcaption></figure>
+<figure class=""><img src="assets/ec-boundary-after-split.png" alt="After boundary split: a midpoint and a third triangle."><figcaption>After boundary split: a midpoint and a third triangle.</figcaption></figure>
+<figure class=""><img src="assets/ec-boundary-1subdiv.png" alt="After one boundary-aware Loop subdivision."><figcaption>After one boundary-aware Loop subdivision.</figcaption></figure>
+<figure class=""><img src="assets/ec-boundary-2subdiv.png" alt="After two subdivisions; connected rounded boundary."><figcaption>After two subdivisions; connected rounded boundary.</figcaption></figure>
+</div></div>
+<div class="ec" id="sqrt3-ec">
+<h3>Extra Credit — √3 Subdivision for Triangle Meshes (Part 6)</h3>
+<p>As a separate subdivision method, I implemented <strong>√3 subdivision</strong> on closed, oriented triangular meshes, with <code>R</code> as the MeshEdit shortcut. Unlike Loop subdivision, which splits every original edge and creates four triangles per old triangle, a √3 step introduces one vertex at the centroid of every original triangle and rearranges connections across original edges. Each old triangle therefore contributes three new triangles, and repeated steps refine the mesh at a different rate from Loop subdivision.</p>
+<p>I compute new positions for old vertices using their original one-ring neighborhoods. For a vertex of valence <em>n</em>, with original position <em>P</em> and neighbors <em>P<sub>i</sub></em>, the update is:</p>
+<p class="formula">P' = (1 − α<sub>n</sub>)P + (α<sub>n</sub>/n) · ΣP<sub>i</sub>, &nbsp; α<sub>n</sub> = [4 − 2 cos(2π/n)]/9.</p>
+<p>I calculate the old-vertex updates and triangle centroids from the unmodified mesh, then construct the new face connectivity consistently, with each original edge replaced by the connection between its neighboring face centroids. This implementation leaves open meshes unchanged; boundary handling is shown separately for the Loop scheme above.</p>
+<p>On <code>dae/icosahedron/input.dae</code>, pressing <code>R</code> repeatedly creates a denser and progressively rounder triangular mesh without visible holes. This is a separate algorithm and separate GUI shortcut from the required Loop subdivision on <code>L</code>.</p>
+<div class="figure-grid cols-3 tight">
+<figure><img src="assets/ec-sqrt3-original.png" alt="Original icosahedron before square root three subdivision"><figcaption>Original icosahedron.</figcaption></figure>
+<figure><img src="assets/ec-sqrt3-1subdiv.png" alt="Icosahedron after one square root three subdivision"><figcaption>One √3 subdivision.</figcaption></figure>
+<figure><img src="assets/ec-sqrt3-2subdiv.png" alt="Icosahedron after two square root three subdivisions"><figcaption>Two √3 subdivisions.</figcaption></figure>
+</div>
+<p class="caption-note">Visual checks show stable repeated subdivision on this closed mesh; these screenshots do not by themselves establish correctness for every possible topology.</p>
+</div>
+<h2 id="notes">Final Notes</h2>
+<p>The most valuable checks were side-by-side geometric comparisons: a control-point edit demonstrated the effect on a Bézier curve; the shading toggle isolated normals from geometry; edge flipping and splitting showed local changes to half-edge connectivity; and cube subdivision made the relationship between connectivity and smoothness visible. An early attempt to load the open test square also failed because the input DAE listed unused vertex positions; correcting the test mesh allowed the boundary algorithms to be exercised in MeshEdit. After these changes, the required scenarios, open-boundary tests, and the additional √3 subdivision test on a closed mesh rendered without visible holes.</p>
+  <p class="footer">CS184/284A · Fall 2026 · Homework 2: MeshEdit</p>
+</main>
+</body>
 </html>
